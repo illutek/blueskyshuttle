@@ -1,0 +1,4 @@
+name: blueskyshuttle
+recipe: drupal8
+config:
+  webroot: .
