@@ -1,0 +1,22 @@
+uuid: 7fc03e05-3191-49ae-8404-07d87474d97c
+langcode: nl
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.tags
+id: taxonomy_term.tags.status
+field_name: status
+entity_type: taxonomy_term
+bundle: tags
+label: Gepubliceerd
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Aan
+  off_label: Uit
+field_type: boolean

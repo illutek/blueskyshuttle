@@ -1,0 +1,18 @@
+uuid: 83859c4f-d0d1-42a0-8264-96931d66fcf9
+langcode: nl
+status: true
+dependencies:
+  module:
+    - menu_link_content
+id: menu_link_content.menu_link_content.changed
+field_name: changed
+entity_type: menu_link_content
+bundle: menu_link_content
+label: Gewijzigd
+description: 'De tijd waarop de  menu link voor het laatst werd gewijzigd.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed
