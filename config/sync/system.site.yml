@@ -1,0 +1,14 @@
+uuid: 715b661a-3c5e-4454-853c-34d34eaa2b8c
+name: Blueskyshuttle
+mail: stefanvandenborne@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE

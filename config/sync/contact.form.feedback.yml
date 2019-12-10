@@ -1,0 +1,14 @@
+uuid: 5b679528-b05e-4fd4-a68d-d6d2455565fb
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: vymHlgJy26BuI5GGj9-IXjwR3dRC5C0tij4BpWJnoqw
+id: feedback
+label: 'Website feedback'
+recipients:
+  - stefanvandenborne@gmail.com
+reply: ''
+weight: 0
+message: 'Your message has been sent.'
+redirect: ''
