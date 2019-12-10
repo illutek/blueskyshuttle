@@ -1,0 +1,14 @@
+uuid: 69fc19a7-1394-402a-ba66-58d93175deb5
+langcode: nl
+status: true
+dependencies:
+  enforced:
+    module:
+      - webform
+_core:
+  default_config_hash: adQ16YGDPk7QfUKrfrC35o2sKdHEozdNtdpiH7CftQQ
+id: country_codes
+label: Landcodes
+category: Geografisch
+likert: false
+options: ''

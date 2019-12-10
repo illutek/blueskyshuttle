@@ -1,0 +1,14 @@
+uuid: 4b6f031a-6c10-4338-b911-7b19402824a7
+langcode: nl
+status: true
+dependencies:
+  enforced:
+    module:
+      - webform
+_core:
+  default_config_hash: gZCLESMdXmEZxHqnQFx7a0rUefrkVuFzHSMnWe0qioM
+id: likert_comparison
+label: 'Likertschaal: Vergelijking'
+category: Likertschaal
+likert: true
+options: "1: Helemaal oneens\r\n2: Oneens\r\n3: Neutraal\r\n4: Eens\r\n5: Helemaal eens\n"
