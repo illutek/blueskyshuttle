@@ -1,0 +1,9 @@
+uuid: c3424222-4b2c-4f6d-bfb6-7d912cbb9ff9
+langcode: nl
+status: false
+dependencies: {  }
+_core:
+  default_config_hash: O11nB9Assnic6AhIuaeK_CQdh_zO0udxABDnUZJupis
+formId: user_register_form
+captchaType: default
+label: null
