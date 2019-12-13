@@ -1,6 +1,6 @@
-site_key: ''
-secret_key: ''
-verify_hostname: false
+site_key: 6LcHq8cUAAAAACqwY1k40SgYTdY47ZtXNWr5BARD
+secret_key: 6LcHq8cUAAAAAJW72gPIH-vnmCsyU6ivVcFweoLi
+verify_hostname: true
 use_globally: false
 widget:
   theme: light
