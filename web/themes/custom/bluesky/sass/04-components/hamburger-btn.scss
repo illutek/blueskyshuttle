@@ -1,0 +1,44 @@
+// //////////////////////////////
+// @@ HAMBURGER BUTTON 
+// //////////////////////////////
+
+.c-hamburger-btn {
+  height: 4rem;
+  width: 4rem;
+  text-align: center;
+  transition: all 1.2s;
+  background-color: $accent;
+  cursor: pointer;
+
+  &--open {
+    position: relative;
+    top: -7px;
+    transform: translateY(2.5rem);
+    width: 2rem;
+
+      &,
+      &::before,
+      &::after {
+        height: 1px;
+        background-color: $main;
+        display: inline-block;
+        transition: all $trans-speed;
+      }
+
+      &::before,
+      &::after {
+        content: "";
+        position: absolute;
+        left: 0;
+      }
+      &::before {
+        top: -0.6rem;
+        width: 2rem;
+      }
+      &::after {
+        top: 0.6rem;
+        width: 2rem;
+      }
+  }
+
+}

@@ -1,0 +1,36 @@
+// //////////////////////////////
+// @@ CLOSE BUTTON 
+// //////////////////////////////
+
+.c-close-btn {
+    position: relative;
+    width: 0;
+
+    &,
+    &::before,
+    &::after {
+      height: 1px;
+      background-color: $white;
+      display: inline-block;
+      transition: all $trans-speed;
+    }
+
+    &::before,
+    &::after {
+      content: "";
+      position: absolute;
+      left: 0;
+    }
+
+    &::before {
+      transform: rotate(135deg);
+      top: 1rem;
+      width: 3rem;
+    }
+
+    &::after {
+      transform: rotate(-135deg);
+      top: 1rem;
+      width: 3rem;
+    }
+  }
