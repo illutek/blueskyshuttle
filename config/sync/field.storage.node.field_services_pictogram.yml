@@ -1,0 +1,30 @@
+uuid: 16b493bd-8a34-46f8-adbd-9447efca4bd6
+langcode: nl
+status: true
+dependencies:
+  module:
+    - file
+    - image
+    - node
+id: node.field_services_pictogram
+field_name: field_services_pictogram
+entity_type: node
+type: image
+settings:
+  uri_scheme: public
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  target_type: file
+  display_field: false
+  display_default: false
+module: image
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

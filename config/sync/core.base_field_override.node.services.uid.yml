@@ -1,0 +1,20 @@
+uuid: 251848db-9157-4859-ab72-50d030205388
+langcode: nl
+status: true
+dependencies:
+  config:
+    - node.type.services
+id: node.services.uid
+field_name: uid
+entity_type: node
+bundle: services
+label: 'Geschreven door'
+description: 'De gebruikersnaam van de auteur.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: 'Drupal\node\Entity\Node::getDefaultEntityOwner'
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference
