@@ -1,0 +1,34 @@
+globalstyle:
+  css:
+    theme:
+      css/styles.css: {}
+
+fonts:
+  license:
+    name: SIL Open Font License 1.1
+    url: http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi$id=OFL
+  css:
+    theme:
+      '//fonts.googleapis.com/css?family=Raleway:400,600,700': { type: external, minified: true }
+
+email:
+  header: true
+  js:
+    js/email.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal.ajax
+    - core/drupal
+    - core/drupalSettings
+    - core/jquery.once
+
+mobile:
+  js:
+    js/menu.js: {}
+    js/contact.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal.ajax
+    - core/drupal
+    - core/drupalSettings
+    - core/jquery.once

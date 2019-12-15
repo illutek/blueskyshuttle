@@ -1,0 +1,25 @@
+name: bleusky
+type: theme
+discription: "BlueSkyShuttle for John"
+base theme: classy
+package: Custom
+core: 8.x
+version: 1.0.0
+
+libraries:
+  - pts/globalstyle
+  - pts/fonts
+  - pts/mobile
+  - pts/email
+
+regions:
+  contactoverlay: "Contact overlay"
+  mobilemenu: "Mobiel menu"
+  headermenu: "Header Menu"
+  languageselector: "Language selector"
+  header: Header
+  shortmessage: "Kort bericht"
+  content: Content
+  aboutus: "About us"
+  footerleft: "Footer left"
+  footerright: "Footer right"
