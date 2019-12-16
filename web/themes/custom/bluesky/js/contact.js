@@ -11,7 +11,6 @@
     const closeBtnContact = document.querySelector('.js-close-contact');
     const contactOverlay = document.querySelector('.r-overlay-contact');
 
-
     /** 
      *  Functions
     */

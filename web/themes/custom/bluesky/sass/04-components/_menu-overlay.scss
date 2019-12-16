@@ -1,0 +1,26 @@
+// //////////////////////////////
+// @@ MENU OVERLAY COMPONENT
+// //////////////////////////////
+.c-menu-overlay {
+
+    &__items {
+        list-style: none;
+    }
+
+    &__item {
+        margin-left: 0;
+        font: {
+            size: 4rem;
+        };
+        line-height: 6rem;
+
+    }
+
+    &__link {
+      text-decoration: none;
+      line-height: 4rem;
+      color: $white;
+  }
+}
+
+ 

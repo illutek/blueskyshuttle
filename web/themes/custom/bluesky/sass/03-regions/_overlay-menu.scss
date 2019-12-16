@@ -13,7 +13,7 @@
   grid-template-areas:
     ". btn ."
     ". list ."
-    ". social .";
+    ". . .";
   
   @include mq(desktop) {
     display: none;
@@ -53,12 +53,6 @@
       line-height: 4rem;
       color: $white;
     }
-  }
-
-  &__social {
-    grid-area: social;
-    justify-self: end;
-
   }
 
   &--visible {

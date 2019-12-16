@@ -143,7 +143,7 @@ strong {
   display: grid;
   grid-template-columns: 5rem 1fr 5rem;
   grid-template-rows: 1fr 8fr 1fr;
-  grid-template-areas: ". btn ." ". list ." ". social ."; }
+  grid-template-areas: ". btn ." ". list ." ". . ."; }
   @media screen and (min-width: 62.5em) {
     .r-menu-overlay {
       display: none; } }
@@ -174,9 +174,6 @@ strong {
     .r-menu-overlay__list .c-main-menu__link {
       line-height: 4rem;
       color: #fffffa; }
-  .r-menu-overlay__social {
-    grid-area: social;
-    justify-self: end; }
   .r-menu-overlay--visible {
     opacity: 1;
     right: 0; }
@@ -318,6 +315,19 @@ strong {
   .c-phone__link {
     color: #07070a;
     text-decoration: none; }
+
+.c-menu-overlay__items {
+  list-style: none; }
+
+.c-menu-overlay__item {
+  margin-left: 0;
+  font-size: 4rem;
+  line-height: 6rem; }
+
+.c-menu-overlay__link {
+  text-decoration: none;
+  line-height: 4rem;
+  color: #fffffa; }
 
 .c-close-btn {
   position: relative;
