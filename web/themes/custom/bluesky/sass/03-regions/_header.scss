@@ -1,0 +1,49 @@
+// //////////////////////////////
+// @@ MENU HEADER
+// //////////////////////////////
+
+.r-header {
+  background-image: url("../images/blueskyshuttle-header-bcg.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  min-height: 47rem;
+  margin-bottom: $margin-bb;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: repeat(2, auto);
+  grid-template-areas: 
+    "contact phone menu"
+    "logo logo .";
+
+  &__contact {
+    grid-area: contact;
+    justify-self: center;
+    padding-top: 5rem;
+  }
+
+  &__phone {
+    grid-area: phone;
+    justify-self: center;
+  }
+
+  &__menu {
+    grid-area: menu;
+    justify-self: center;
+    padding-top: 2rem;
+  }
+
+  &__logo {
+    width: 50%;
+    grid-area: logo;
+    justify-self: center;
+    align-self: center;
+
+    &-img {
+      width: 45vw;
+      max-width: 19rem;
+      height: auto;
+    }
+  }
+
+}

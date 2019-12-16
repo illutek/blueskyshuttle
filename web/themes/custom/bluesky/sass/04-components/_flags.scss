@@ -1,0 +1,12 @@
+// //////////////////////////////
+// @@ LANGUAGE FLAGS
+// //////////////////////////////
+
+.c-flag {
+    width: 3.5rem;
+    height: auto;
+
+    &:not(:last-child) {
+        margin-right: 1.5rem;
+    }
+}

@@ -7,7 +7,7 @@
 (function () {
     'use strict';
 
-    const openBtnContact = document.querySelector('.open-contact');
+    const openBtnContact = document.querySelector('.js-open-contact');
     const closeBtnContact = document.querySelector('.js-close-contact');
     const contactOverlay = document.querySelector('.r-overlay-contact');
 
