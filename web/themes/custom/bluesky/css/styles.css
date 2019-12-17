@@ -187,7 +187,7 @@ strong {
   width: 100%;
   overflow: auto;
   z-index: 99;
-  color: #fffffa;
+  color: #07070a;
   background: rgba(247, 184, 1, 0.95);
   -webkit-transition: all 0.9s;
   transition: all 0.9s; }
@@ -256,7 +256,7 @@ strong {
     padding-top: 1.3rem; }
   .r-header__phone {
     grid-area: phone;
-    margin-top: -2rem;
+    margin-top: -1rem;
     justify-self: center; }
   .r-header__menu {
     grid-area: menu;
@@ -338,6 +338,8 @@ strong {
     display: inline-block;
     -webkit-transition: all 0.3s;
     transition: all 0.3s; }
+  .c-close-btn--black, .c-close-btn--black::before, .c-close-btn--black::after {
+    background-color: #07070a; }
   .c-close-btn::before, .c-close-btn::after {
     content: "";
     position: absolute;

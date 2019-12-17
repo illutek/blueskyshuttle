@@ -15,6 +15,14 @@
       transition: all $trans-speed;
     }
 
+    &--black {
+      &,
+      &::before,
+      &::after {
+        background-color: $black;
+      }
+    }
+
     &::before,
     &::after {
       content: "";

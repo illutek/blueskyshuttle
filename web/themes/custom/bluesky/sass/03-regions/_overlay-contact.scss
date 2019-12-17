@@ -5,7 +5,7 @@
 .r-overlay-contact {
   left: -100vw;
 
-  @include bcg-overlay($accent);
+  @include bcg-overlay($accent, $black);
 
   &__inner {
     display: flex;
