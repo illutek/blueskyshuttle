@@ -1,0 +1,18 @@
+// /////////////////////////
+// @@ FOOTER REGION
+// ////////////////////////
+
+.footer {
+    background-color: $gray;
+    color: $white;
+    padding: 3rem 0;
+    
+    &__left {
+     display: flex;
+     justify-content: center;
+    }
+
+    &__right {
+        display: none;
+    }
+}
