@@ -1,0 +1,29 @@
+// /////////////////////////
+// @@ SERVICE CONTENT
+// ////////////////////////
+
+.service {
+    margin-bottom: $margin-b;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 2rem;
+    grid-template-areas: 
+      "icon title"
+      "icon body";
+
+    &__icon {
+        grid-area: icon;
+        align-self: center;
+        max-width: 8.6rem;        
+    }
+
+    &__title {
+        font: {weight: $fw-bold};
+        grid-area: title;
+    }
+
+    &__body {
+        grid-area: body;
+    }
+
+}

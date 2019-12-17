@@ -28,22 +28,29 @@ html {
     
   }
   
-  h2 {
 
-    // underline with after
-    
+  h2 {
+    position: relative;
+    display: inline-block;
     font: {
-      size: calc(#{$ff-size} + .9rem);
+      size: calc(#{$ff-size} + 1rem);  //26rem
     }
     margin-bottom: 3rem;
     line-height: 3rem;
+
+    @include underline($accent);
+    
   }
   
   h3 {
+    position: relative;
+    display: inline-block;
     font: {
-      size: calc(#{$ff-size} + .4rem);
+      size: calc(#{$ff-size} + .8rem);
     }
     margin-bottom: 1rem;
+
+    @include underline($accent);
   }
   
   strong {

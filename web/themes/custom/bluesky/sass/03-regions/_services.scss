@@ -1,0 +1,17 @@
+// /////////////////////////
+// @@ SERVICES REGION
+// ////////////////////////
+
+.r-services {
+    margin-bottom: $margin-bb;
+
+    &__title {
+        text-align: center;
+        margin-bottom: $margin-bb;
+    }
+
+    &__inner {
+        display: flex;
+        flex-direction: column;
+    }
+}

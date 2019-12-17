@@ -63,3 +63,15 @@ $breakpoints: (
   background: rgba($cbg, .95);
   transition: all 0.9s;
 }
+
+@mixin underline($bcgc) {
+  &::after {
+    position: absolute;
+    content: "";
+    background-color: $bcgc;
+    height: 2px;
+    width: 100%;
+    left: 0;
+    bottom: -12px;
+  }
+}
