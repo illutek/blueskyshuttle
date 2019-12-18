@@ -11,6 +11,11 @@
       "icon title"
       "icon body";
 
+    @include mq(tablet) {
+        width: 45%;
+        margin-right: 2rem;
+    }
+
     &__icon {
         grid-area: icon;
         align-self: center;

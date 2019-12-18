@@ -18,15 +18,28 @@
 
     &__left {
         max-width: 13rem;
+
+        @include mq(desktop) {
+            order: 1;
+        }
     }
 
     &__middle {
         display: none;
+
+        @include mq(desktop) {
+            order: 0;
+            display: block;
+        }
     }
 
     &__right {
         max-width: 20rem;
         display: flex;
+
+        @include mq(desktop) {
+            order: 2;
+        }
 
     }
 }

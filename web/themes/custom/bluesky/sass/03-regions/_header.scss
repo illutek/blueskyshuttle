@@ -10,6 +10,14 @@
   min-height: 47rem;
   margin-bottom: $margin-bb;
 
+  @include mq(tablet) {
+    background-position: center;
+  }
+
+  @include mq(desktop) {
+    background-position: bottom;
+  }
+
   &__inner {
     min-height: 47rem;
     padding: 2rem 0;
@@ -19,24 +27,47 @@
     grid-template-areas: 
       "contact phone menu"
       "logo logo .";
-  }
-  
+
+      @include mq(tablet)  {
+        grid-template-areas: 
+          "contact . menu"
+          "logo logo .";
+      }
+
+      @include mq(desktop)  {
+        grid-template-areas: 
+          ". . ."
+          "logo logo .";
+      }
+  }  
 
   &__contact {
     grid-area: contact;
     justify-self: start;
     padding-top: 1.3rem;
+
+    @include mq(tablet) {
+      display: none;
+    }
   }
 
   &__phone {
     grid-area: phone;
     margin-top: -1rem;
     justify-self: center;
+
+    @include mq(tablet) {
+      display: none;
+    }
   }
 
   &__menu {
     grid-area: menu;
     justify-self: end;
+
+    @include mq(desktop) {
+      display: none;
+    }
   }
 
   &__logo {

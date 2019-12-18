@@ -252,13 +252,29 @@ strong {
     justify-content: space-between; }
   .r-top-header__left {
     max-width: 13rem; }
+    @media screen and (min-width: 62.5em) {
+      .r-top-header__left {
+        -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+        order: 1; } }
   .r-top-header__middle {
     display: none; }
+    @media screen and (min-width: 62.5em) {
+      .r-top-header__middle {
+        -webkit-box-ordinal-group: 1;
+        -ms-flex-order: 0;
+        order: 0;
+        display: block; } }
   .r-top-header__right {
     max-width: 20rem;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex; }
+    @media screen and (min-width: 62.5em) {
+      .r-top-header__right {
+        -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+        order: 2; } }
 
 .r-header {
   background-image: url("../images/blueskyshuttle-header-bcg.jpeg");
@@ -267,6 +283,12 @@ strong {
   background-position: top;
   min-height: 47rem;
   margin-bottom: 6rem; }
+  @media screen and (min-width: 37.5em) {
+    .r-header {
+      background-position: center; } }
+  @media screen and (min-width: 62.5em) {
+    .r-header {
+      background-position: bottom; } }
   .r-header__inner {
     min-height: 47rem;
     padding: 2rem 0;
@@ -274,17 +296,32 @@ strong {
     grid-template-columns: 1fr 2fr 1fr;
     grid-template-rows: repeat(2, auto);
     grid-template-areas: "contact phone menu" "logo logo ."; }
+    @media screen and (min-width: 37.5em) {
+      .r-header__inner {
+        grid-template-areas: "contact . menu" "logo logo ."; } }
+    @media screen and (min-width: 62.5em) {
+      .r-header__inner {
+        grid-template-areas: ". . ." "logo logo ."; } }
   .r-header__contact {
     grid-area: contact;
     justify-self: start;
     padding-top: 1.3rem; }
+    @media screen and (min-width: 37.5em) {
+      .r-header__contact {
+        display: none; } }
   .r-header__phone {
     grid-area: phone;
     margin-top: -1rem;
     justify-self: center; }
+    @media screen and (min-width: 37.5em) {
+      .r-header__phone {
+        display: none; } }
   .r-header__menu {
     grid-area: menu;
     justify-self: end; }
+    @media screen and (min-width: 62.5em) {
+      .r-header__menu {
+        display: none; } }
   .r-header__logo {
     width: 50%;
     max-width: 30rem;
@@ -305,6 +342,17 @@ strong {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column; }
+    @media screen and (min-width: 37.5em) {
+      .r-services__inner {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between; } }
 
 .r-main {
   margin-bottom: 6rem; }
@@ -393,6 +441,28 @@ strong {
   line-height: 4rem;
   color: #fffffa; }
 
+.c-menu__items {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.c-menu__item {
+  margin-left: 0;
+  font-size: 1.7rem; }
+  .c-menu__item:not(:last-child) {
+    margin-right: 1rem; }
+  .c-menu__item:last-child {
+    margin-bottom: 0; }
+
+.c-menu__link {
+  text-decoration: none;
+  line-height: 4rem;
+  color: #fffffa; }
+
 .c-close-btn {
   position: relative;
   width: 0; }
@@ -425,6 +495,10 @@ strong {
   grid-template-columns: 1fr 2fr;
   grid-gap: 2rem;
   grid-template-areas: "icon title" "icon body"; }
+  @media screen and (min-width: 37.5em) {
+    .service {
+      width: 45%;
+      margin-right: 2rem; } }
   .service__icon {
     grid-area: icon;
     -ms-flex-item-align: center;
