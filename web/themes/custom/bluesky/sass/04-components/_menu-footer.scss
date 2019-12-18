@@ -1,0 +1,25 @@
+// //////////////////////////////
+// @@ MENU FOOTER COMPONENT
+// //////////////////////////////
+.c-menu-footer {
+
+    &__items {
+        list-style: none;
+        
+    }
+
+    &__item {
+        margin-left: 0;
+        font: {
+            size: 1.7rem;
+        };
+       
+            
+    }
+
+    &__link {
+      text-decoration: none;
+      line-height: 3rem;
+      color: $white;
+  }
+}

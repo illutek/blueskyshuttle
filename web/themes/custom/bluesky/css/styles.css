@@ -277,7 +277,7 @@ strong {
         order: 2; } }
 
 .r-header {
-  background-image: url("../images/blueskyshuttle-header-bcg.jpeg");
+  background-image: url("../images/blueskyshuttle-header-bcg-600.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
@@ -285,10 +285,8 @@ strong {
   margin-bottom: 6rem; }
   @media screen and (min-width: 37.5em) {
     .r-header {
+      background-image: url("../images/blueskyshuttle-header-bcg-1000.jpg");
       background-position: center; } }
-  @media screen and (min-width: 62.5em) {
-    .r-header {
-      background-position: bottom; } }
   .r-header__inner {
     min-height: 47rem;
     padding: 2rem 0;
@@ -361,6 +359,14 @@ strong {
   background-color: #515052;
   color: #fffffa;
   padding: 3rem 0; }
+  @media screen and (min-width: 37.5em) {
+    .footer__inner {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between; } }
   .footer__left {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -369,7 +375,11 @@ strong {
     -ms-flex-pack: center;
     justify-content: center; }
   .footer__right {
-    display: none; }
+    display: none;
+    text-align: right; }
+    @media screen and (min-width: 37.5em) {
+      .footer__right {
+        display: block; } }
 
 .sub-footer {
   text-align: center;
@@ -488,6 +498,18 @@ strong {
     transform: rotate(-135deg);
     top: 1rem;
     width: 3rem; }
+
+.c-menu-footer__items {
+  list-style: none; }
+
+.c-menu-footer__item {
+  margin-left: 0;
+  font-size: 1.7rem; }
+
+.c-menu-footer__link {
+  text-decoration: none;
+  line-height: 3rem;
+  color: #fffffa; }
 
 .service {
   margin-bottom: 3rem;

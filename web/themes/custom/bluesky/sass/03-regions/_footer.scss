@@ -6,6 +6,15 @@
     background-color: $gray;
     color: $white;
     padding: 3rem 0;
+
+    &__inner {
+        @include mq(tablet) {
+        display: flex;
+        justify-content: space-between;
+    }
+    }
+
+    
     
     &__left {
      display: flex;
@@ -14,5 +23,10 @@
 
     &__right {
         display: none;
+        text-align: right;
+
+        @include mq(tablet) {
+            display: block;
+        }
     }
 }

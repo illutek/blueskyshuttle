@@ -3,7 +3,7 @@
 // //////////////////////////////
 
 .r-header {
-  background-image: url("../images/blueskyshuttle-header-bcg.jpeg");
+  background-image: url("../images/blueskyshuttle-header-bcg-600.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
@@ -11,11 +11,13 @@
   margin-bottom: $margin-bb;
 
   @include mq(tablet) {
+    background-image: url("../images/blueskyshuttle-header-bcg-1000.jpg");
     background-position: center;
   }
 
   @include mq(desktop) {
-    background-position: bottom;
+    // background-image: url("../images/blueskyshuttle-header-bcg-1000.jpg");
+    // background-position: bottom;
   }
 
   &__inner {
