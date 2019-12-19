@@ -239,6 +239,7 @@ strong {
   background-color: #0e2daa;
   color: #fffffa;
   padding: 1.5rem 0;
+  height: 7.5rem;
   font-size: 2.4rem; }
   .r-top-header__inner {
     display: -webkit-box;
@@ -281,7 +282,6 @@ strong {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
-  min-height: 47rem;
   margin-bottom: 6rem; }
   @media screen and (min-width: 37.5em) {
     .r-header {
@@ -300,6 +300,8 @@ strong {
     @media screen and (min-width: 62.5em) {
       .r-header__inner {
         grid-template-areas: ". . ." "logo logo ."; } }
+    .r-header__inner--no-height {
+      min-height: 0; }
   .r-header__contact {
     grid-area: contact;
     justify-self: start;
