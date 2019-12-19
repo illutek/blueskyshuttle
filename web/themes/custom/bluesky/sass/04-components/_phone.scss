@@ -10,4 +10,15 @@
         color: $black;
         text-decoration: none;
     }
+
+    &--overlay {
+        border: 1px solid $black;
+        text-decoration: none;
+        color: $black;
+        display: block;
+        margin-top: 3rem;
+        text-align: center;
+
+    }
+
 }

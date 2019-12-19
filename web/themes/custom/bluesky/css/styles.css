@@ -437,6 +437,13 @@ strong {
   .c-phone__link {
     color: #07070a;
     text-decoration: none; }
+  .c-phone--overlay {
+    border: 1px solid #07070a;
+    text-decoration: none;
+    color: #07070a;
+    display: block;
+    margin-top: 3rem;
+    text-align: center; }
 
 .c-menu-overlay__items {
   list-style: none; }
