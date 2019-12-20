@@ -10,7 +10,9 @@
     <div class="container">
         <div class="r-top-header__inner">
             <div class="r-top-header__left">
-                <img src="{{ base_path ~ directory }}/images/logo.png" alt="Logo Blueskyshuttle">
+                <a href="{{ path('<front>') }}">
+                    <img src="{{ base_path ~ directory }}/images/logo.png" alt="Blueskyshuttle logo">
+                </a>   
             </div>
             <div class="r-top-header__middle">
                 <div class="c-top-header-menu">
@@ -19,8 +21,6 @@
             </div>
             <div class="r-top-header__right">
                 {{ page.languageselector }}
-                    {# <img class="c-flag" src="../images/dutch-flag.jpg" alt="">
-                    <img class="c-flag" src="../images/eng-flag.jpg" alt=""> #}
             </div>
         </div>
     </div>
