@@ -8,6 +8,7 @@ dependencies:
     - field.field.node.services.field_services_pictogram
     - node.type.services
   module:
+    - image
     - text
     - user
 id: node.services.teaser
@@ -18,16 +19,24 @@ content:
   body:
     label: hidden
     type: text_summary_or_trimmed
-    weight: 101
+    weight: 2
     settings:
       trim_length: 600
     third_party_settings: {  }
     region: content
+  field_services_pictogram:
+    type: image
+    weight: 1
+    region: content
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
   links:
-    weight: 100
+    weight: 0
+    region: content
     settings: {  }
     third_party_settings: {  }
-    region: content
 hidden:
-  field_services_pictogram: true
   langcode: true

@@ -57,6 +57,7 @@ display:
       row:
         type: 'entity:node'
         options:
+          relationship: none
           view_mode: full
       fields:
         title:
@@ -132,10 +133,10 @@ display:
           expose:
             operator_limit_selection: false
             operator_list: {  }
-        content_translation_source:
-          id: content_translation_source
+        langcode:
+          id: langcode
           table: node_field_data
-          field: content_translation_source
+          field: langcode
           relationship: none
           group_type: group
           admin_label: ''
@@ -172,7 +173,7 @@ display:
             default_group_multiple: {  }
             group_items: {  }
           entity_type: node
-          entity_field: content_translation_source
+          entity_field: langcode
           plugin_id: language
       sorts:
         created:
@@ -193,7 +194,20 @@ display:
       title: Diensten
       header: {  }
       footer: {  }
-      empty: {  }
+      empty:
+        area:
+          id: area
+          table: views
+          field: area
+          relationship: none
+          group_type: group
+          admin_label: ''
+          empty: true
+          tokenize: false
+          content:
+            value: 'geen content'
+            format: basic_html
+          plugin_id: text
       relationships: {  }
       arguments: {  }
       display_extenders: {  }
