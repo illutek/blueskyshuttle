@@ -2,11 +2,19 @@
 // @@ LANGUAGE FLAGS
 // //////////////////////////////
 
-.c-flag {
-    width: 3.5rem;
-    height: auto;
+.c-language {
 
-    &:not(:last-child) {
-        margin-right: 1.5rem;
+    &__items {
+        display: flex;
+        width: 9rem;
+        justify-content: space-between;
     }
+}
+
+.en {
+    @include flags('eng-flag.jpg', 'eng-flag-not_active.jpg')
+}
+
+.nl {
+    @include flags('dutch-flag.jpg', 'dutch-flag-not_active.jpg')
 }

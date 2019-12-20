@@ -392,11 +392,36 @@ strong {
   .sub-footer__link {
     color: #fffffa; }
 
-.c-flag {
+.c-language__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 9rem;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+
+.en {
+  height: 2.3rem;
   width: 3.5rem;
-  height: auto; }
-  .c-flag:not(:last-child) {
-    margin-right: 1.5rem; }
+  background-size: cover;
+  background-position: center;
+  background-image: url("../images/eng-flag.jpg"); }
+  .en a {
+    color: transparent; }
+  .en:hover {
+    background-image: url("../images/eng-flag-not_active.jpg"); }
+
+.nl {
+  height: 2.3rem;
+  width: 3.5rem;
+  background-size: cover;
+  background-position: center;
+  background-image: url("../images/dutch-flag.jpg"); }
+  .nl a {
+    color: transparent; }
+  .nl:hover {
+    background-image: url("../images/dutch-flag-not_active.jpg"); }
 
 .c-hamburger-btn {
   height: 4rem;

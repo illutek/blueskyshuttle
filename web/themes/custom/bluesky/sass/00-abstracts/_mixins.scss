@@ -75,3 +75,20 @@ $breakpoints: (
     bottom: -12px;
   }
 }
+
+@mixin flags($image, $image-hover) {
+  height: 2.3rem;
+  width: 3.5rem;
+  background-size: cover;
+  background-position: center;
+
+  a {
+      color: transparent;
+  }
+
+  background-image: url("../images/" + $image);
+
+  &:hover {
+      background-image: url("../images/" + $image-hover);
+  }
+}
