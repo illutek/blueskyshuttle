@@ -1,25 +1,28 @@
 // //////////////////////////////
 // @@ MENU FOOTER COMPONENT
 // //////////////////////////////
-.c-menu-footer {
 
-    &__items {
-        list-style: none;
-        
+// class add on the a href with {{ link(item.title, item.url, { class: ['menu__link'] }) }}
+.c-footer-menu {
+
+    & .menu {
+
+        &__items {
+            list-style: none;
+        }
+
+        &__item {
+            margin-left: 0;
+            font: {
+                size: 1.7rem;
+            };
+        }
+
+        &__link {
+            text-decoration: none;
+            line-height: 3rem;
+            color: $white;
+        }
     }
 
-    &__item {
-        margin-left: 0;
-        font: {
-            size: 1.7rem;
-        };
-       
-            
-    }
-
-    &__link {
-      text-decoration: none;
-      line-height: 3rem;
-      color: $white;
-  }
 }

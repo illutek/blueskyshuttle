@@ -11,14 +11,14 @@
         @include mq(tablet) {
         display: flex;
         justify-content: space-between;
-    }
+        }
     }
 
     
     
     &__left {
-     display: flex;
-     justify-content: center;
+        display: flex;
+        justify-content: center;
     }
 
     &__right {
@@ -28,5 +28,6 @@
         @include mq(tablet) {
             display: block;
         }
+
     }
 }
