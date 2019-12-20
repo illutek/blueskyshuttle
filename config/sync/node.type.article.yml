@@ -1,13 +1,20 @@
 uuid: 19a081bd-8908-41d9-bf0e-aef8730a1fb4
 langcode: nl
 status: true
-dependencies: {  }
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
 _core:
   default_config_hash: AeW1SEDgb1OTQACAWGhzvMknMYAJlcZu0jljfeU3oso
 name: Article
 type: article
 description: 'Use <em>articles</em> for time-sensitive content like news, press releases or blog posts.'
 help: ''
-new_revision: true
-preview_mode: 1
-display_submitted: true
+new_revision: false
+preview_mode: 0
+display_submitted: false

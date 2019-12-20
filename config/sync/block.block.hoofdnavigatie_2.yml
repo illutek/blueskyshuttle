@@ -1,4 +1,4 @@
-uuid: a8bf2464-9849-4d0a-be9a-1366e81e3812
+uuid: e95ee14a-e824-4bca-a94c-8141b6fa136b
 langcode: nl
 status: true
 dependencies:
@@ -7,21 +7,19 @@ dependencies:
   module:
     - system
   theme:
-    - bartik
-_core:
-  default_config_hash: ChCx7DYNUrPTt5uiRdQAPDKJQMc-_SyAQTrZh8H0o-c
-id: bartik_main_menu
-theme: bartik
-region: primary_menu
+    - bluesky
+id: hoofdnavigatie_2
+theme: bluesky
+region: footerright
 weight: 0
 provider: null
 plugin: 'system_menu_block:main'
 settings:
   id: 'system_menu_block:main'
-  label: 'Main navigation'
+  label: Hoofdnavigatie
   provider: system
   label_display: '0'
   level: 1
-  depth: 1
+  depth: 0
   expand_all_items: false
 visibility: {  }
