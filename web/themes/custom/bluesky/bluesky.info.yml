@@ -17,7 +17,6 @@ regions:
   headermenu: "Header Menu"
   languageselector: "Language selector"
   header: Header
-  shortmessage: "Kort bericht"
   content: Content
   services: Services
   footerleft: "Footer left"

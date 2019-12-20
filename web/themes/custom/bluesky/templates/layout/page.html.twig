@@ -4,33 +4,35 @@
  *
  * header on the page, only difference with 
  * the header on the front-page is an extra class "r-header__inner--no-height".
+ * and no services region
  *
  * @see template_preprocess_page()
  * @see html.html.twig
  */
 #}
 
-<div class="r-header">
-    <div class="container">
-        <div class="r-header__inner r-header__inner--no-height">
-            <div class="r-header__contact js-open-contact">
-                <img class="c-contact-btn" src="{{ base_path ~ directory }}/images/contact-btn.png" alt="">
-            </div>
-            <div class="r-header__phone">
-                <div class="c-phone">
-                    <a class="c-phone__link" href="tel:+32475548992">+32 475 54 89 92</a>
-                </div>
-            </div>
-            <div class="r-header__menu">
-                <div class="r-header__menu--open">
-                    <div class="c-hamburger-btn">
-                        <span class="c-hamburger-btn--open">&nbsp;</span>
-                    </div>
-                </div>
-            </div>
-            <div class="r-header__logo">
-                <img src="{{ base_path ~ directory }}/images/logo.png" alt="">
-            </div>
-        </div>
-    </div>
-</div>
+{# start region contact-overlay #}
+{% include directory ~ '/templates/partials/shared/contact-overlay.html.twig' %}
+{# end region contact-overlay #}
+
+{# start region menu-overlay #}
+{% include directory ~ '/templates/partials/shared/menu-overlay.html.twig' %}
+{# end region menu-overlay #}
+
+{# start region top-header #}
+{% include directory ~ '/templates/partials/shared/top-header.html.twig' %}
+{# end region top-header #}
+
+{# start region header #}
+{% include directory ~ '/templates/partials/front-page/header-front.html.twig' %}
+{# end region header #}
+
+{# start region main-content #}
+{% include directory ~ '/templates/partials/shared/main-content.html.twig' %}
+{# end region main-content #}
+
+
+
+{# start region footer #}
+{% include directory ~ '/templates/partials/shared/footer.html.twig' %}
+{# end region footer #}
