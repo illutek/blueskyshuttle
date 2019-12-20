@@ -1,0 +1,22 @@
+uuid: ef03e04f-1f74-4d1a-9743-ed00e816db58
+langcode: nl
+status: true
+dependencies:
+  theme:
+    - bluesky
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: bluesky_local_tasks
+theme: bluesky
+region: content
+weight: -40
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabbladen
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

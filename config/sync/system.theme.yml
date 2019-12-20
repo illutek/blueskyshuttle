@@ -1,5 +1,5 @@
-admin: seven
-default: bartik
+admin: claro
+default: bluesky
 _core:
   default_config_hash: fOjer9hADYYnbCJVZMFZIIM1azTFWyg84ZkFDHfAbUg
 langcode: nl

@@ -1,0 +1,23 @@
+uuid: 5d4d3fd6-1c90-4230-b13f-0b302537b139
+langcode: nl
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - bluesky
+_core:
+  default_config_hash: Q-4EcGAsu26ICu4ejEz0uE1zv4akpiaOsizxgZfAmEw
+id: bluesky_search
+theme: bluesky
+region: contactoverlay
+weight: -1
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Zoeken
+  provider: search
+  label_display: visible
+  page_id: node_search
+visibility: {  }

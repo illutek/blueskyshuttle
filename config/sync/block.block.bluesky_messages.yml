@@ -1,0 +1,22 @@
+uuid: 8740280f-d0b4-41ca-8a31-d8aa912e76d9
+langcode: nl
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - bluesky
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: bluesky_messages
+theme: bluesky
+region: contactoverlay
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: Statusberichten
+  provider: system
+  label_display: '0'
+visibility: {  }

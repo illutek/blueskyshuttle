@@ -1,0 +1,20 @@
+uuid: 0c94840b-de0f-40c0-b0c1-0c45bd0d7a47
+langcode: nl
+status: true
+dependencies:
+  theme:
+    - bluesky
+_core:
+  default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
+id: bluesky_page_title
+theme: bluesky
+region: content
+weight: -50
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: Paginatitel
+  provider: core
+  label_display: '0'
+visibility: {  }

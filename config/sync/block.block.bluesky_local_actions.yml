@@ -1,0 +1,20 @@
+uuid: 9bf2f886-4646-4fac-b526-ee1a78b9a3d2
+langcode: nl
+status: true
+dependencies:
+  theme:
+    - bluesky
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: bluesky_local_actions
+theme: bluesky
+region: content
+weight: -20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primaire beheeracties'
+  provider: core
+  label_display: '0'
+visibility: {  }
