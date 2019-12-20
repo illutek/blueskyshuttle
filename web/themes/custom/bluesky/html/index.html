@@ -26,9 +26,9 @@
 
                 <p>BE 0534.951.238</p>
 
-                
-                <a class="c-phone c-phone--overlay" href="tel:+32475548992">+32 475 54 89 92</a> 
-            
+
+                <a class="c-phone c-phone--overlay" href="tel:+32475548992">+32 475 54 89 92</a>
+
             </div>
         </div>
     </div>
@@ -40,12 +40,14 @@
             <span class="c-close-btn">&nbsp;</span>
         </div>
         <div class="r-menu-overlay__list">
-            <ul class="c-menu-overlay__items">
-                <li class="c-menu-overlay__item"><a href="#" class="c-menu-overlay__link">Home</a></li>
-                <li class="c-menu-overlay__item"><a href="#" class="c-menu-overlay__link">Vervoer aanvraag</a></li>
-                <li class="c-menu-overlay__item"><a href="#" class="c-menu-overlay__link">Contact</a></li>
-                <li class="c-menu-overlay__item"><a href="#" class="c-menu-overlay__link">Algemene voorwaarden</a></li>
-            </ul>
+            <div class="c-menu-overlay">
+                <ul class="menu__items">
+                    <li class="menu__item"><a href="#" class="menu__link">Home</a></li>
+                    <li class="menuy__item"><a href="#" class="menu__link">Vervoer aanvraag</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link">Contact</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link">Algemene voorwaarden</a></li>
+                </ul>
+            </div>
         </div>
     </div>
     <!-- end menu-overlay -->
@@ -58,12 +60,15 @@
                     <img src="../images/logo.png" alt="Logo Blueskyshuttle">
                 </div>
                 <div class="r-top-header__middle">
-                    <ul class="c-menu__items">
-                        <li class="c-menu__item"><a href="#" class="c-menu__link">Home</a></li>
-                        <li class="c-menu__item"><a href="#" class="c-menu__link">Vervoer aanvraag</a></li>
-                        <li class="c-menu__item"><a href="#" class="c-menu__link">Contact</a></li>
-                        <li class="c-menu__item"><a href="#" class="c-menu__link">Algemene voorwaarden</a></li>
-                    </ul>
+                    <div class="c-top-header-menu">
+                        <ul class="menu__items">
+                            <li class="menu__item"><a href="#" class="menu__link">Home</a></li>
+                            <li class="menu__item"><a href="#" class="menu__link">Vervoer aanvraag</a></li>
+                            <li class="menu__item"><a href="#" class="menu__link">Contact</a></li>
+                            <li class="menu__item"><a href="#" class="menu__link">Algemene voorwaarden</a></li>
+                        </ul>
+                    </div>
+
                 </div>
                 <div class="r-top-header__right">
                     <img class="c-flag" src="../images/dutch-flag.jpg" alt="">
@@ -198,26 +203,31 @@
         <div class="container">
             <div class="footer__inner">
                 <div class="footer__left">
-                <div class="footer__left-inner">
-                    <p>Hasseltsestraat 41 <br>
-                        3740 Bilzen
-                    </p>
-                    <p>BE 0534.951.238 </p>
-                    <p>+32 475 54 89 92</p>
-                </div>
+                    <div class="footer__left-inner">
+                        <p>Hasseltsestraat 41 <br>
+                            3740 Bilzen
+                        </p>
+                        <p>BE 0534.951.238 </p>
+                        <p>+32 475 54 89 92</p>
+                    </div>
 
+                </div>
+                <div class="footer__right">
+                    <!-- only noticeable on desktop view -->
+                    <div class="c-footer-menu">
+                        <ul class="menu__items">
+                            <li class="menu__item"><a href="#" class="menu__link">Home</a></li>
+                            <li class="menu__item"><a href="#" class="menu__link">Vervoer aanvraag</a>
+                            </li>
+                            <li class="menu__item"><a href="#" class="menu__link">Contact</a></li>
+                            <li class="menu__item"><a href="#" class="menu__link">Algemene voorwaarden</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
             </div>
-            <div class="footer__right">
-                <!-- only noticeable on desktop view -->
-                <ul class="c-menu-footer__items">
-                    <li class="c-menu-footer__item"><a href="#" class="c-menu-footer__link">Home</a></li>
-                    <li class="c-menu-footer__item"><a href="#" class="c-menu-footer__link">Vervoer aanvraag</a></li>
-                    <li class="c-menu-footer__item"><a href="#" class="c-menu-footer__link">Contact</a></li>
-                    <li class="c-menu-footer__item"><a href="#" class="c-menu-footer__link">Algemene voorwaarden</a></li>
-                </ul>
-            </div>
-            </div>
-            
+
         </div>
 
     </footer>
