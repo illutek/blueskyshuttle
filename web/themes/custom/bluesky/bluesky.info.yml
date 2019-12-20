@@ -7,10 +7,9 @@ core: 8.x
 version: 1.0.0
 
 libraries:
-  - pts/globalstyle
-  - pts/fonts
-  - pts/mobile
-  - pts/email
+  - bluesky/globalstyle
+  - bluesky/fonts
+  - bluesky/mobile
 
 regions:
   contactoverlay: "Contact overlay"
@@ -20,6 +19,6 @@ regions:
   header: Header
   shortmessage: "Kort bericht"
   content: Content
-  aboutus: "About us"
+  services: Services
   footerleft: "Footer left"
   footerright: "Footer right"

@@ -2,17 +2,14 @@
 /**
  * 2019-12-18
  *
- * header on the page, only difference with 
- * the header on the front-page is an extra class "r-header__inner--no-height".
- *
- * @see template_preprocess_page()
- * @see html.html.twig
+ * header on the front page, only difference with 
+ * the header on the page is an extra class "r-header__inner--no-height".
  */
 #}
 
 <div class="r-header">
     <div class="container">
-        <div class="r-header__inner r-header__inner--no-height">
+        <div class="r-header__inner">
             <div class="r-header__contact js-open-contact">
                 <img class="c-contact-btn" src="{{ base_path ~ directory }}/images/contact-btn.png" alt="">
             </div>

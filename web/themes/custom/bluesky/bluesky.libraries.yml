@@ -11,17 +11,6 @@ fonts:
     theme:
       '//fonts.googleapis.com/css?family=Raleway:400,600,700': { type: external, minified: true }
 
-email:
-  header: true
-  js:
-    js/email.js: {}
-  dependencies:
-    - core/jquery
-    - core/drupal.ajax
-    - core/drupal
-    - core/drupalSettings
-    - core/jquery.once
-
 mobile:
   js:
     js/menu.js: {}
