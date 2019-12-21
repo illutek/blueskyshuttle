@@ -581,6 +581,11 @@ strong {
 .c-form__fieldset {
   max-width: 100%; }
 
+.c-form__submit {
+  background-color: #0e2daa;
+  color: #f7b801;
+  padding: 2rem; }
+
 .fieldset-wrapper {
   width: 80vw; }
 

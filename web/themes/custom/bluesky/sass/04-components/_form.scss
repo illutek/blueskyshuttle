@@ -27,6 +27,12 @@
     &__fieldset {
         max-width: 100%;
     }
+
+    &__submit {
+        background-color: $main;
+        color: $accent;
+        padding: 2rem;
+    }
 }
 
 .fieldset-wrapper {
