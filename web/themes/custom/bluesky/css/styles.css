@@ -561,6 +561,29 @@ strong {
   .c-footer-menu .menu__link:hover {
     color: #f7b801; }
 
+.c-form__label {
+  display: inline-block;
+  color: #f7b801;
+  background-color: #0e2daa;
+  padding: 1rem;
+  margin-bottom: 1rem; }
+
+.c-form__input {
+  max-width: 100%;
+  padding: 1rem;
+  border: 1px solid #0e2daa; }
+
+.c-form__textarea {
+  max-width: 100%;
+  padding: 1rem;
+  border: 1px solid #0e2daa; }
+
+.c-form__fieldset {
+  max-width: 100%; }
+
+.fieldset-wrapper {
+  width: 80vw; }
+
 .service {
   margin-bottom: 3rem;
   display: grid;

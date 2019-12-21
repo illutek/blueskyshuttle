@@ -1,0 +1,34 @@
+// /////////////////////////
+// @@ FORMS 
+// ////////////////////////
+
+.c-form {
+
+    &__label {
+        display: inline-block;
+        color: $accent;
+        background-color: $main;
+        padding: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    &__input {
+        max-width: 100%;
+        padding: 1rem;
+        border: 1px solid $main;
+    }
+
+    &__textarea {
+        max-width: 100%;
+        padding: 1rem;
+        border: 1px solid $main;
+    }
+
+    &__fieldset {
+        max-width: 100%;
+    }
+}
+
+.fieldset-wrapper {
+    width: 80vw;
+}
