@@ -408,7 +408,8 @@ strong {
   background-position: center;
   background-image: url("../images/eng-flag.jpg"); }
   .en a {
-    color: transparent; }
+    color: transparent;
+    display: block; }
   .en:hover {
     background-image: url("../images/eng-flag-not_active.jpg"); }
 
@@ -419,7 +420,8 @@ strong {
   background-position: center;
   background-image: url("../images/dutch-flag.jpg"); }
   .nl a {
-    color: transparent; }
+    color: transparent;
+    display: block; }
   .nl:hover {
     background-image: url("../images/dutch-flag-not_active.jpg"); }
 
@@ -477,8 +479,12 @@ strong {
 
 .c-menu-overlay .menu__item {
   margin-left: 0;
-  font-size: 4rem;
+  font-size: 2.5rem;
   line-height: 6rem; }
+  .c-menu-overlay .menu__item:last-child {
+    margin-bottom: 0; }
+  .c-menu-overlay .menu__item .is-active {
+    color: #f7b801; }
 
 .c-menu-overlay .menu__link {
   text-decoration: none;
@@ -501,11 +507,15 @@ strong {
     margin-right: 1rem; }
   .c-top-header-menu .menu__item:last-child {
     margin-bottom: 0; }
+  .c-top-header-menu .menu__item .is-active {
+    color: #f7b801; }
 
 .c-top-header-menu .menu__link {
   text-decoration: none;
   line-height: 4rem;
   color: #fffffa; }
+  .c-top-header-menu .menu__link:hover {
+    color: #f7b801; }
 
 .c-close-btn {
   position: relative;
@@ -539,11 +549,17 @@ strong {
 .c-footer-menu .menu__item {
   margin-left: 0;
   font-size: 1.7rem; }
+  .c-footer-menu .menu__item:last-child {
+    margin-bottom: 0; }
+  .c-footer-menu .menu__item .is-active {
+    color: #f7b801; }
 
 .c-footer-menu .menu__link {
   text-decoration: none;
   line-height: 3rem;
   color: #fffffa; }
+  .c-footer-menu .menu__link:hover {
+    color: #f7b801; }
 
 .service {
   margin-bottom: 3rem;

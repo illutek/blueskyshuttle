@@ -1,6 +1,9 @@
 // //////////////////////////////
 // @@ MENU TOP-HEADER COMPONENT
 // //////////////////////////////
+
+// class add on the a href with {{ link(item.title, item.url, { class: ['menu__link'] }) }}
+
 .c-top-header-menu {
 
     & .menu {
@@ -16,18 +19,29 @@
             font: {
                 size: 1.7rem;
             };
+
             &:not(:last-child) {
                 margin-right: 1rem;
             }
+
             &:last-child {
                 margin-bottom: 0;
             }
+
+            & .is-active {
+                color: $accent;
+            }
+
         }
 
         &__link {
         text-decoration: none;
         line-height: 4rem;
         color: $white;
+
+            &:hover {
+                color: $accent;
+            }
         }
     }
 

@@ -16,12 +16,24 @@
             font: {
                 size: 1.7rem;
             };
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+
+            & .is-active {
+                color: $accent;
+            }
         }
 
         &__link {
             text-decoration: none;
             line-height: 3rem;
             color: $white;
+
+            &:hover {
+                color: $accent;
+            }
         }
     }
 

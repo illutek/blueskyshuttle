@@ -1,6 +1,9 @@
 // //////////////////////////////
 // @@ MENU OVERLAY COMPONENT
 // //////////////////////////////
+
+// class add on the a href with {{ link(item.title, item.url, { class: ['menu__link'] }) }}
+
 .c-menu-overlay {
 
     & .menu {
@@ -11,9 +14,17 @@
         &__item {
             margin-left: 0;
             font: {
-                size: 4rem;
+                size: 2.5rem;
             };
             line-height: 6rem;
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+
+            & .is-active {
+                color: $accent;
+            }
 
         }
 

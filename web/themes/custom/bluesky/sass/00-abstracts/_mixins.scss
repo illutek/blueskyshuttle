@@ -84,6 +84,7 @@ $breakpoints: (
 
   a {
       color: transparent;
+      display: block;
   }
 
   background-image: url("../images/" + $image);
