@@ -602,9 +602,14 @@ strong {
   color: #f7b801;
   background-color: #0e2daa;
   padding: 1rem;
-  margin-bottom: 1rem;
   width: 15rem;
-  text-align: center; }
+  text-align: center;
+  font-size: 1.2rem; }
+  .c-form__label.option {
+    margin-left: 1rem; }
+  @media screen and (min-width: 37.5em) {
+    .c-form__label {
+      font-size: 1.6rem; } }
 
 .c-form__input {
   max-width: 100%;
@@ -623,7 +628,11 @@ strong {
   background-color: #0e2daa;
   color: #f7b801;
   padding: 1rem;
-  width: 15rem; }
+  width: 100%; }
+
+.c-form__select {
+  padding: 1rem;
+  border: 1px solid #0e2daa; }
 
 .fieldset-wrapper {
   width: 80vw; }
