@@ -16,11 +16,13 @@ html {
   }
   
   h1 {
+    position: relative;
+    display: inline-block;
     font-size: 4rem;  
     line-height: 100%;
     margin-bottom: $margin-b;
 
-    // underline with after
+    @include underline($accent);
     
     @include mq(desktop) {
       font-size: 3vw; 

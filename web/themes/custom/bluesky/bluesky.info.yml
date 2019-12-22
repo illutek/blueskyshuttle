@@ -21,3 +21,4 @@ regions:
   services: Services
   footerleft: "Footer left"
   footerright: "Footer right"
+  subfooter: "Sub Footer"

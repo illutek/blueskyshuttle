@@ -1,0 +1,46 @@
+// //////////////////////////////
+// @@ MENU SUB-FOOTER COMPONENT
+// //////////////////////////////
+
+// class add on the a href with {{ link(item.title, item.url, { class: ['menu__link'] }) }}
+.c-sub-footer-menu {
+
+    & .menu {
+
+        &__items {
+            list-style: none;
+            display: flex;
+            align-items: center;
+        }
+
+        &__item {
+            margin-left: 0;
+            font: {
+                size: 1rem;
+            };
+
+            &:not(:last-child) {
+                margin-right: 1rem;
+            }
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+
+            & .is-active {
+                color: $accent;
+            }
+        }
+
+        &__link {
+            text-decoration: none;
+            line-height: 3rem;
+            color: $white;
+
+            &:hover {
+                color: $accent;
+            }
+        }
+    }
+
+}

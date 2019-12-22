@@ -1,7 +1,15 @@
 uuid: 9e22358b-8e29-465a-b514-e51f6a1f9ec1
 langcode: nl
 status: true
-dependencies: {  }
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+      - footer
+    parent: 'main:'
 _core:
   default_config_hash: KuyA4NHPXcmKAjRtwa0vQc2ZcyrUJy6IlS2TAyMNRbc
 name: 'Basic page'
