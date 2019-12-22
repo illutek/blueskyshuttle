@@ -10,6 +10,8 @@
         background-color: $main;
         padding: 1rem;
         margin-bottom: 1rem;
+        width: 15rem;
+        text-align: center;
     }
 
     &__input {
@@ -31,7 +33,8 @@
     &__submit {
         background-color: $main;
         color: $accent;
-        padding: 2rem;
+        padding: 1rem;
+        width: 15rem;
     }
 }
 

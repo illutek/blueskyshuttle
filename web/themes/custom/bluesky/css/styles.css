@@ -566,7 +566,9 @@ strong {
   color: #f7b801;
   background-color: #0e2daa;
   padding: 1rem;
-  margin-bottom: 1rem; }
+  margin-bottom: 1rem;
+  width: 15rem;
+  text-align: center; }
 
 .c-form__input {
   max-width: 100%;
@@ -584,7 +586,8 @@ strong {
 .c-form__submit {
   background-color: #0e2daa;
   color: #f7b801;
-  padding: 2rem; }
+  padding: 1rem;
+  width: 15rem; }
 
 .fieldset-wrapper {
   width: 80vw; }
