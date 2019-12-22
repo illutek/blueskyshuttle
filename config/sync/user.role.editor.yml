@@ -1,0 +1,37 @@
+uuid: d0f5ce21-deda-4ad6-96d7-27e63967df34
+langcode: nl
+status: true
+dependencies: {  }
+id: editor
+label: editor
+weight: 3
+is_admin: null
+permissions:
+  - 'access content'
+  - 'access content overview'
+  - 'access shortcuts'
+  - 'administer menu'
+  - 'administer nodes'
+  - 'administer shortcuts'
+  - 'create content translations'
+  - 'delete any webform submission'
+  - 'edit any article content'
+  - 'edit any page content'
+  - 'edit any services content'
+  - 'edit any webform submission'
+  - 'edit own article content'
+  - 'edit own page content'
+  - 'edit own services content'
+  - 'edit own webform'
+  - 'translate article node'
+  - 'translate interface'
+  - 'translate menu_link_content'
+  - 'translate page node'
+  - 'translate services node'
+  - 'update content translations'
+  - 'use text format basic_html'
+  - 'use text format full_html'
+  - 'use text format restricted_html'
+  - 'view any webform submission'
+  - 'view own unpublished content'
+  - 'view own webform submission'

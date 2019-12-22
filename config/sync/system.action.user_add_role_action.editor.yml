@@ -1,0 +1,14 @@
+uuid: ed1916e1-e3a3-449b-8cb2-21e989adcec8
+langcode: nl
+status: true
+dependencies:
+  config:
+    - user.role.editor
+  module:
+    - user
+id: user_add_role_action.editor
+label: 'De rol editor toewijzen aan de geselecteerde gebruiker(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: editor
