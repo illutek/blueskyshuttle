@@ -291,7 +291,7 @@ strong {
   background-image: url("../images/blueskyshuttle-header-bcg-600.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: top;
+  background-position: bottom;
   margin-bottom: 6rem; }
   @media screen and (min-width: 37.5em) {
     .r-header {
