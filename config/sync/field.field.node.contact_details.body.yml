@@ -1,0 +1,23 @@
+uuid: 14455619-61c8-428a-af87-3e3645300fda
+langcode: nl
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.contact_details
+  module:
+    - text
+id: node.contact_details.body
+field_name: body
+entity_type: node
+bundle: contact_details
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

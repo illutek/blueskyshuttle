@@ -1,0 +1,24 @@
+uuid: 50f39345-5ec7-4a61-9966-b4a07c93dcb2
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.conact_details
+  module:
+    - views
+  theme:
+    - bluesky
+id: views_block__conact_details_block_1
+theme: bluesky
+region: footerleft
+weight: 0
+provider: null
+plugin: 'views_block:conact_details-block_1'
+settings:
+  id: 'views_block:conact_details-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility: {  }

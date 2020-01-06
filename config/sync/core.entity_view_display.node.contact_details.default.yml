@@ -1,0 +1,25 @@
+uuid: 0df9d9fd-ab36-45ad-88d8-21d09cbb0ae3
+langcode: nl
+status: true
+dependencies:
+  config:
+    - field.field.node.contact_details.body
+    - node.type.contact_details
+  module:
+    - text
+    - user
+id: node.contact_details.default
+targetEntityType: node
+bundle: contact_details
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true
+  links: true

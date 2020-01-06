@@ -1,0 +1,18 @@
+uuid: f62443bf-0dad-4f60-b7a3-a8867e4ef75b
+langcode: nl
+status: true
+dependencies:
+  config:
+    - node.type.contact_details
+id: node.contact_details.title
+field_name: title
+entity_type: node
+bundle: contact_details
+label: Titel
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
