@@ -2,6 +2,8 @@
 // @@ SERVICE CONTENT
 // ////////////////////////
 
+// service class set on views-view-unformatted--services.html.twig
+// service__icon, service__title, service__body  on node--services--teaser.html.twig
 .service {
     margin-bottom: $margin-b;
     display: grid;
@@ -9,7 +11,8 @@
     grid-gap: 2rem;
     grid-template-areas: 
       "icon title"
-      "icon body";
+      "icon body"
+      "more more";
 
     @include mq(tablet) {
         width: 45%;
@@ -31,4 +34,7 @@
         grid-area: body;
     }
 
+}
+.c-readmore {
+    grid-area: more;
 }

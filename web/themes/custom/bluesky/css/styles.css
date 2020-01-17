@@ -105,7 +105,7 @@ h1, h2, h3, h4 {
 h1 {
   position: relative;
   display: inline-block;
-  font-size: 4rem;
+  font-size: 7vw;
   line-height: 100%;
   margin-bottom: 3rem; }
   h1::after {
@@ -645,7 +645,7 @@ strong {
   display: grid;
   grid-template-columns: 1fr 2fr;
   grid-gap: 2rem;
-  grid-template-areas: "icon title" "icon body"; }
+  grid-template-areas: "icon title" "icon body" "more more"; }
   @media screen and (min-width: 37.5em) {
     .service {
       width: 45%;
@@ -660,5 +660,8 @@ strong {
     grid-area: title; }
   .service__body {
     grid-area: body; }
+
+.c-readmore {
+  grid-area: more; }
 
 /*# sourceMappingURL=styles.css.map */

@@ -6,6 +6,10 @@
  * 
  */
 #}
+{% set bodytext = content.body|render|striptags %}
+{# Text lenght variable #}
+{% set textlenght = 200 %}
+
 {%
   set classes = [
     'node',
@@ -22,8 +26,13 @@
       {{ content.field_services_pictogram }}
     </div>
     <div class="service__title">
-      {# {{ label }} #}
+      {{ label }}
     </div>
     <div class="service__body">
-      {{ content.body }}
+      {{ bodytext|length > textlenght ? bodytext|slice(0, textlenght) ~ '...' : bodytext }}
     </div>
+    {# this to show the read more link must be translatable #}
+    <div class="c-readmore">
+      {{ content|without('body')|without('field_services_pictogram') }}
+    </div>
+    
