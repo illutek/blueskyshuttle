@@ -1,0 +1,23 @@
+// //////////////////////////////
+// @@ COMPONENT READMORE LINK
+// //////////////////////////////
+ 
+.c-readmore {
+
+    &__links {
+        text-align: right;        
+    }
+
+    &__list {
+        a {
+            color: $black;
+            text-decoration: none;
+            border-bottom: 1px $accent solid;
+
+            &:hover{
+                border-bottom: 1px $black solid;
+            }
+        }
+    }
+
+}

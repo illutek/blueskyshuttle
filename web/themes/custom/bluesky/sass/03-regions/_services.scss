@@ -2,6 +2,10 @@
 // @@ SERVICES REGION
 // ////////////////////////
 
+// region services, the service = content
+// r-services on partials/front-page/services.html.twig
+// r-services__inner on views-view--services.html.twig
+
 .r-services {
     margin-bottom: $margin-bb;
 
@@ -20,4 +24,5 @@
             justify-content: space-between;
         }
     }
+
 }

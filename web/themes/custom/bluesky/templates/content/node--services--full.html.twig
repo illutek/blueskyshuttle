@@ -9,6 +9,7 @@
 {%
   set classes = [
     'node',
+    'service-full-node',
     'node--type-' ~ node.bundle|clean_class,
     node.isPromoted() ? 'node--promoted',
     node.isSticky() ? 'node--sticky',
@@ -17,13 +18,11 @@
   ]
 %}
 {{ attach_library('classy/node') }}
-
-    <div class="service__icon">
+  <article{{ attributes.addClass(classes) }}>
+    <div class="service-full-node__icon">
       {{ content.field_services_pictogram }}
     </div>
-    <div class="service__title">
-      {# {{ label }} #}
-    </div>
-    <div class="service__body">
+    <div class="service-full-node__body">
       {{ content.body }}
     </div>
+  </article>
