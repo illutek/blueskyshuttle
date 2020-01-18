@@ -8,9 +8,10 @@
 
 <footer class="sub-footer">
     <div class="container">
-
-		{{ site_name }} | {{ "now"|date("Y") }} | icons by
-		<a class="sub-footer__link" href="https://pixabay.com">pixabay.com</a>
+		<div class="c-sub-footer-copyright">
+			{{ site_name }} | Copyright © {{ "now"|date("Y") }} | icons by
+			<a class="sub-footer__link" href="https://pixabay.com">pixabay.com</a>
+		</div>
 		<div class="c-sub-footer-menu">
 			{{ page.subfooter }}
 		</div>
