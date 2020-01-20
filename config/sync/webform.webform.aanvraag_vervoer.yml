@@ -186,9 +186,9 @@ handlers:
     settings:
       states:
         - completed
-      to_mail: degroote.johnny@gmail.com
+      to_mail: 'degroote.johnny@gmail.com, johnny@blueskyshuttle.eu'
       to_options: {  }
-      cc_mail: ''
+      cc_mail: stefanvandenborne@gmail.com
       cc_options: {  }
       bcc_mail: ''
       bcc_options: {  }
