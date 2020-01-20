@@ -92,6 +92,14 @@ li {
   li:last-child {
     margin-bottom: 1rem; }
 
+table {
+  width: 100%;
+  border: 0; }
+
+td {
+  padding: .5rem;
+  border-bottom: 1px solid #515052; }
+
 html {
   font-family: "Raleway", sans-serif; }
 
