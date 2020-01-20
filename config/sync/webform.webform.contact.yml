@@ -218,7 +218,7 @@ handlers:
       sender_name: ''
   email_notification:
     id: email
-    label: E-mailmelding
+    label: 'E-mailmelding naar john'
     handler_id: email_notification
     status: true
     conditions: {  }
@@ -226,7 +226,42 @@ handlers:
     settings:
       states:
         - completed
-      to_mail: _default
+      to_mail: degroote.johnny@gmail.com
+      to_options: {  }
+      cc_mail: ''
+      cc_options: {  }
+      bcc_mail: ''
+      bcc_options: {  }
+      from_mail: '[webform_submission:values:email:raw]'
+      from_options: {  }
+      from_name: '[webform_submission:values:name:raw]'
+      subject: '[webform_submission:values:subject:raw]'
+      body: '[webform_submission:values:message:value]'
+      excluded_elements: {  }
+      ignore_access: false
+      exclude_empty: true
+      exclude_empty_checkbox: false
+      html: true
+      attachments: false
+      twig: false
+      theme_name: ''
+      parameters: {  }
+      debug: false
+      reply_to: ''
+      return_path: ''
+      sender_mail: ''
+      sender_name: ''
+  e_mailmelding_naar_john:
+    id: email
+    label: 'E-mailmelding naar Stefan'
+    handler_id: e_mailmelding_naar_john
+    status: true
+    conditions: {  }
+    weight: 2
+    settings:
+      states:
+        - completed
+      to_mail: stefanvandenborne@gmail.com
       to_options: {  }
       cc_mail: ''
       cc_options: {  }
