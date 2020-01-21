@@ -178,7 +178,7 @@ access:
 handlers:
   e_mail:
     id: email
-    label: 'E-mail naar John gmail'
+    label: 'E-mail naar John gmail even naar stefan'
     handler_id: e_mail
     status: true
     conditions: {  }
@@ -186,7 +186,7 @@ handlers:
     settings:
       states:
         - completed
-      to_mail: 'degroote.johnny@gmail.com, johnny@blueskyshuttle.eu'
+      to_mail: stefan@blueskyshuttle.eu
       to_options: {  }
       cc_mail: stefanvandenborne@gmail.com
       cc_options: {  }
