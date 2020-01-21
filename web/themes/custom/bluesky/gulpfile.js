@@ -75,7 +75,7 @@ gulp.task("style:dist", function() {
       })
     )
     .pipe(cleancss({ compatibility: "ie9" }))
-    .pipe(gulp.dest(path.dist.css));
+    .pipe(gulp.dest("css"));
 });
 
 gulp.task("img:dist", function() {
@@ -133,6 +133,8 @@ gulp.task("style:sass", function() {
       })
     )
     .pipe(sourcemaps.write("."))
+    //extract the line below out comments for minify css 
+    .pipe(cleancss({ compatibility: "ie9" }))
     .pipe(gulp.dest("css"));
 });
 
