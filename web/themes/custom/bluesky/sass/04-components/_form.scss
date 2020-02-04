@@ -30,7 +30,6 @@
         max-width: 100%;
         padding: 1rem;
         border: 1px solid $main;
-        // margin-top: 3rem;
     }
 
     &__textarea {
@@ -41,6 +40,8 @@
 
     &__fieldset {
         max-width: 100%;
+
+        &-legende {}
     }
 
     &__submit {
@@ -58,4 +59,9 @@
 
 .fieldset-wrapper {
     width: 80vw;
+}
+
+// radio selection type of transport
+.webform-options-display-two-columns {
+    margin-top: 2rem;
 }
