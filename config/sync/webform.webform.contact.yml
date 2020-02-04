@@ -1,12 +1,9 @@
-uuid: e19a53e8-fe24-4e85-8054-4e82bbb34c73
 langcode: nl
 status: open
 dependencies:
   enforced:
     module:
       - webform
-_core:
-  default_config_hash: Y5FXIowbf6peROB8ZQquX0ANA9GqXheA8PGu2vCkrwE
 open: null
 close: null
 weight: 0
@@ -17,7 +14,7 @@ id: contact
 title: Contact
 description: 'Eenvoudig e-mailcontactformulier'
 category: ''
-elements: "name:\n  '#type': textfield\n  '#title': 'Jouw naam'\n  '#required': true\n  '#attributes':\n    class:\n      - c-form__input\n  '#label_attributes':\n    class:\n      - c-form__label\nemail:\n  '#type': email\n  '#title': 'Jouw e-mail'\n  '#default_value': ''\n  '#required': true\n  '#attributes':\n    class:\n      - c-form__input\n  '#label_attributes':\n    class:\n      - c-form__label\nsubject:\n  '#type': textfield\n  '#title': Onderwerp\n  '#required': true\n  '#test': 'Testing contact webform from [site:name]'\n  '#attributes':\n    class:\n      - c-form__input\n  '#label_attributes':\n    class:\n      - c-form__label\nmessage:\n  '#type': textarea\n  '#title': Bericht\n  '#required': true\n  '#test': 'Please ignore this email.'\n  '#attributes':\n    class:\n      - c-form__textarea\n  '#label_attributes':\n    class:\n      - c-form__label\ncaptcha:\n  '#type': captcha\n  '#captcha_type': recaptcha/reCAPTCHA\nactions:\n  '#type': webform_actions\n  '#title': 'Submit button(s)'\n  '#submit__label': Verzenden\n  '#submit__attributes':\n    class:\n      - c-form__submit"
+elements: "name:\n  '#type': textfield\n  '#title': 'Jouw naam'\n  '#required': true\n  '#attributes':\n    class:\n      - c-form__input\n  '#label_attributes':\n    class:\n      - c-form__label\nemail:\n  '#type': email\n  '#title': 'Jouw e-mail'\n  '#default_value': ''\n  '#required': true\n  '#attributes':\n    class:\n      - c-form__input\n  '#label_attributes':\n    class:\n      - c-form__label\nsubject:\n  '#type': textfield\n  '#title': Onderwerp\n  '#required': true\n  '#test': 'Testing contact webform from [site:name]'\n  '#attributes':\n    class:\n      - c-form__input\n  '#label_attributes':\n    class:\n      - c-form__label\nmessage:\n  '#type': textarea\n  '#title': Bericht\n  '#required': true\n  '#test': 'Please ignore this email.'\n  '#attributes':\n    class:\n      - c-form__textarea\n  '#label_attributes':\n    class:\n      - c-form__label\ncaptcha:\n  '#type': captcha\n  '#captcha_type': recaptcha/reCAPTCHA\nactions:\n  '#type': webform_actions\n  '#title': 'Submit button(s)'\n  '#submit__label': Verzenden\n  '#submit__attributes':\n    class:\n      - c-form__submit\n  '#update__attributes':\n    class:\n      - c-form__submit\n"
 css: ''
 javascript: ''
 settings:
@@ -206,16 +203,17 @@ handlers:
       ignore_access: false
       exclude_empty: true
       exclude_empty_checkbox: false
+      exclude_attachments: false
       html: true
       attachments: false
       twig: false
-      theme_name: ''
-      parameters: {  }
       debug: false
       reply_to: ''
       return_path: ''
       sender_mail: ''
       sender_name: ''
+      theme_name: ''
+      parameters: {  }
   email_notification:
     id: email
     label: 'E-mailmelding naar john'
@@ -241,16 +239,17 @@ handlers:
       ignore_access: false
       exclude_empty: true
       exclude_empty_checkbox: false
+      exclude_attachments: false
       html: true
       attachments: false
       twig: false
-      theme_name: ''
-      parameters: {  }
       debug: false
       reply_to: ''
       return_path: ''
       sender_mail: ''
       sender_name: ''
+      theme_name: ''
+      parameters: {  }
   e_mailmelding_naar_john:
     id: email
     label: 'E-mailmelding naar Stefan'
@@ -276,13 +275,18 @@ handlers:
       ignore_access: false
       exclude_empty: true
       exclude_empty_checkbox: false
+      exclude_attachments: false
       html: true
       attachments: false
       twig: false
-      theme_name: ''
-      parameters: {  }
       debug: false
       reply_to: ''
       return_path: ''
       sender_mail: ''
       sender_name: ''
+      theme_name: ''
+      parameters: {  }
+variants: {  }
+uuid: e19a53e8-fe24-4e85-8054-4e82bbb34c73
+_core:
+  default_config_hash: Y5FXIowbf6peROB8ZQquX0ANA9GqXheA8PGu2vCkrwE
