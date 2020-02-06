@@ -1,3 +1,4 @@
+uuid: 841a822a-c657-41bf-a79b-26892edee322
 langcode: nl
 status: open
 dependencies: {  }
@@ -177,7 +178,7 @@ access:
 handlers:
   e_mail:
     id: email
-    label: 'E-mail naar John gmail even naar stefan'
+    label: 'E-mail naar John gmail'
     handler_id: e_mail
     status: true
     conditions: {  }
@@ -185,7 +186,7 @@ handlers:
     settings:
       states:
         - completed
-      to_mail: stefan@blueskyshuttle.eu
+      to_mail: degroote.johnny@gmail.com
       to_options: {  }
       cc_mail: stefanvandenborne@gmail.com
       cc_options: {  }
@@ -248,4 +249,3 @@ handlers:
       parameters: {  }
       exclude_attachments: false
 variants: {  }
-uuid: 841a822a-c657-41bf-a79b-26892edee322
