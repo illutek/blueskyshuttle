@@ -1,8 +1,0 @@
-uuid: 30d96f38-4a03-49ad-8814-f6648ed60362
-langcode: nl
-status: true
-dependencies: {  }
-id: VYOTF4bQdgrfTJyQddsbQTYCd13NBvx-ifXqmOhuH9w
-label: 'http://blueskyshuttle.test/nl'
-context:
-  language: nl
