@@ -7,7 +7,7 @@ This as a thesis for Drupal-DevOps CVO-HZ school year 2019-2020.
 1. git clone this repo
 2. composer install
 3. a Drupal installation (default mysql)
-4. ./vendor/bin/drupal config:import
+4. import config files with Drupal console ./vendor/bin/drupal config:import
 5. cache clear
 
 The site installation still with (version 8.8.1)
