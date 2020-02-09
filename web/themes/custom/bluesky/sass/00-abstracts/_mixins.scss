@@ -83,7 +83,7 @@ $breakpoints: (
   background-position: center;
 
   a {
-      color: transparent;
+      color: transparent; //this to hide the language link
       display: block;
   }
 
@@ -91,5 +91,10 @@ $breakpoints: (
 
   &:hover {
       background-image: url("../images/" + $image-hover);
+  }
+
+  &.is-active {
+    background-image: url("../images/" + $image-hover);
+    //here for the same img as hover
   }
 }
