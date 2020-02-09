@@ -3,6 +3,8 @@
 // ////////////////////////
 
 // layout/region--languageselector.html.twig
+// this width is needed to ensure that there is no overflow-x
+
 .r-languageselector {
   width: 11rem;
 }
